@@ -1,5 +1,5 @@
-import { ArrowDropDown, Notifications, Search } from '@material-ui/icons';
-import { useState } from 'react';
+import { ArrowDropDown, Notifications, Search } from '@material-ui/icons'
+import { useState } from 'react'
 
 import './navbar.scss'
 
@@ -11,7 +11,6 @@ const Navbar = () => {
     return () => window.onscroll = null
   }
 
-  console.log(isScrolled)
   return (
     <div className={isScrolled ? 'scrolled navbar' : 'navbar'}>
       <div className="container">
